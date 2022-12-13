@@ -3,7 +3,7 @@
 #include <sys/shm.h>
 #include <unistd.h>
 #include <sys/types.h>
-#define SHMSZ 27
+#include <errno.h>
 
 int main()
 {
